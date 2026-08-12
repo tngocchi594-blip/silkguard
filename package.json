@@ -1,0 +1,32 @@
+{
+  "name": "silkguard",
+  "private": true,
+  "version": "2.0.0",
+  "description": "Evidence-traceable pre-market compliance workflows for cross-border product teams.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tngocchi594-blip/silkguard.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "check": "vite build"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "framer-motion": "latest",
+    "gsap": "^3.15.0",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "recharts": "latest",
+    "three": "^0.185.1",
+    "vite": "^8.1.5"
+  }
+}

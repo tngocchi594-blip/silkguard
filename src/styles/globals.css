@@ -1,0 +1,9 @@
+/*
+ * Active style entrypoint.
+ *
+ * foundation.generated.css contains only selectors referenced by the current
+ * React tree and is regenerated with tools/prune-active-css.mjs.
+ * overhaul.css is the human-maintained SilkGuard design system.
+ */
+@import './foundation.generated.css';
+@import './overhaul.css';

@@ -1,0 +1,71 @@
+{
+  "schema_version": 2,
+  "market_count": 4,
+  "source": {
+    "source_layer": "open_source_example_catalog",
+    "verification_status": "navigation_only_except_versioned_rule_packs",
+    "note": "These entries are intentionally limited to product navigation. Only markets linked to a maintained rule pack may execute deterministic checks."
+  },
+  "markets": [
+    {
+      "id": "eu",
+      "name_zh": "欧盟",
+      "name_en": "European Union",
+      "flag": "🇪🇺",
+      "risk_level": "medium_high",
+      "advisory_score": 78,
+      "cultural_note": "Example catalog entry; verify member-state and product-specific obligations.",
+      "certifications": ["CE", "RoHS", "REACH", "WEEE", "GPSR"],
+      "export_volume": "not_provided",
+      "hot_categories": [],
+      "key_risk": "Product scope, technical documentation, traceability, labeling, and marketplace claims require product-specific review.",
+      "coverage_tier": "official_deterministic",
+      "verification_status": "prototype_rule_pack_available"
+    },
+    {
+      "id": "united-states",
+      "name_zh": "美国",
+      "name_en": "United States",
+      "flag": "🇺🇸",
+      "risk_level": "unknown",
+      "advisory_score": 0,
+      "cultural_note": "Navigation entry only; no US rule pack is included.",
+      "certifications": ["FCC", "UL / ETL", "CPSC"],
+      "export_volume": "not_provided",
+      "hot_categories": [],
+      "key_risk": "Federal, state, product-category, and marketplace requirements must be sourced before review.",
+      "coverage_tier": "advisory_only",
+      "verification_status": "requires_official_verification"
+    },
+    {
+      "id": "japan",
+      "name_zh": "日本",
+      "name_en": "Japan",
+      "flag": "🇯🇵",
+      "risk_level": "unknown",
+      "advisory_score": 0,
+      "cultural_note": "Navigation entry only; no Japan rule pack is included.",
+      "certifications": ["PSE", "JIS", "TELEC"],
+      "export_volume": "not_provided",
+      "hot_categories": [],
+      "key_risk": "Product-category, electrical-safety, radio, labeling, and importer obligations require official verification.",
+      "coverage_tier": "advisory_only",
+      "verification_status": "requires_official_verification"
+    },
+    {
+      "id": "united-kingdom",
+      "name_zh": "英国",
+      "name_en": "United Kingdom",
+      "flag": "🇬🇧",
+      "risk_level": "unknown",
+      "advisory_score": 0,
+      "cultural_note": "Navigation entry only; no UK rule pack is included.",
+      "certifications": ["UKCA", "UK REACH"],
+      "export_volume": "not_provided",
+      "hot_categories": [],
+      "key_risk": "Current marking, product-safety, importer, and Great Britain/Northern Ireland scope must be verified.",
+      "coverage_tier": "advisory_only",
+      "verification_status": "requires_official_verification"
+    }
+  ]
+}

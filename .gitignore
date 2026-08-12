@@ -1,0 +1,42 @@
+# Dependencies and build output
+node_modules/
+dist/
+.vite/
+.venv/
+venv/
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local runtime data
+var/
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.pid
+
+# Credentials and local overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local design and agent workspaces
+.img2threejs/
+design-reference/
+work/
+.codex/
+.agents/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

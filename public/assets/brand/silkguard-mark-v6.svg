@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48" role="img" aria-labelledby="title">
+  <title id="title">SilkGuard maritime route</title>
+  <path d="M50 8H25C15 8 9 11.8 9 17.5S14.5 27 25 27H34C44 27 50 30.8 50 36.5S44 45 34 45H8"
+        fill="none" stroke="#0B1F33" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M25 27H34C44 27 50 30.8 50 36.5" fill="none" stroke="#2F7FBE" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="50" cy="8" r="4" fill="#FF8268"/>
+  <circle cx="8" cy="45" r="3" fill="#2F7FBE"/>
+</svg>

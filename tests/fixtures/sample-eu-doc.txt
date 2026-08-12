@@ -1,0 +1,10 @@
+SilkGuard demo compliance document
+
+Product: High-speed ionic hair dryer
+Model: SG-ELEC-001
+Rated voltage: 220-240 V
+Rated power: 1600 W
+Target market: European Union
+
+This synthetic fixture is used only to verify the document upload, parsing,
+preview, and case-refresh workflow. It is not a declaration of conformity.
