@@ -104,6 +104,10 @@ tests/
 
 See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the trust boundary and workflow.
 
+## Maintenance
+
+SilkGuard is maintained as a public, release-based project. The primary maintainer reviews incoming issues and pull requests, verifies changes to source-linked controls, manages releases, and keeps CI and security tooling operational. See [MAINTAINERS.md](MAINTAINERS.md) for the current responsibility map and [ROADMAP.md](ROADMAP.md) for planned work.
+
 ## Verification
 
 ```powershell
