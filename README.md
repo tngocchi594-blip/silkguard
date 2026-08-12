@@ -1,6 +1,11 @@
 # SilkGuard
 
+[![CI](https://github.com/tngocchi594-blip/silkguard/actions/workflows/ci.yml/badge.svg)](https://github.com/tngocchi594-blip/silkguard/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Evidence-traceable pre-market compliance workflows for cross-border product teams.
+
+![SilkGuard evidence dossier](public/assets/brand/evidence-dossier-1600.webp)
 
 SilkGuard turns product documents into a reviewable case: it identifies the selected market, evaluates a versioned rule pack, links every finding to a source, creates remediation actions, and records human review and re-checks. The first deterministic rule pack covers an EU smart-appliance demo entering Amazon EU.
 
